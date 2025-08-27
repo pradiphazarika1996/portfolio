@@ -25,6 +25,8 @@ export function Hero() {
           <div className="text-xl md:text-2xl lg:text-3xl mb-8 h-16">
             <TypeAnimation
               sequence={[
+                "Software Engineer",
+                2000,
                 "Front End Developer",
                 2000,
 
@@ -39,10 +41,10 @@ export function Hero() {
           </div>
 
           <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-muted-foreground leading-relaxed animate-slide-up">
-            Building responsive, user-friendly web applications with 1.5+ years
-            of experience in React.js, Next.js, and modern JavaScript.
-            Passionate about creating efficient, maintainable code and
-            delivering exceptional user experiences.
+            Building responsive, user-friendly web applications with 2+ years of
+            experience in React.js, Next.js, and modern JavaScript. Passionate
+            about creating efficient, maintainable code and delivering
+            exceptional user experiences.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">

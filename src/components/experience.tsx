@@ -8,6 +8,25 @@ import { CalendarDays, MapPin, Building } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
+      company: "Gratia Technology",
+      position: "Front End Developer",
+      duration: "July 2024 - Present",
+      location: "Guwahati",
+      achievements: [
+        " Developed IPMS (Integrated Project Management System) with a role-based admin panel and individual dashboards for Admin and User",
+        "Implemented multi-user authentication and authorization ensuring secure access control. Integrated Redux Toolkit & REST APIs to manage state and backend communication. Built a modern and responsive UI/UX using Shadcn UI with TypeScript for type safety and scalability.",
+        "Focused on performance optimization, clean code, and reusable components.",
+      ],
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Redux Toolkit",
+        "Typescript",
+        "MongoDB",
+      ],
+    },
+    {
       company: "Kareng Technologies",
       position: "Front End Developer",
       duration: "May 2022 - June 2024",
